@@ -60,7 +60,7 @@ For each practice, following results were being generated -
 
 **Word Clouds:** for Positive and Negative words/phrases as shown below.
  
- <img src="./img/word_cloud.jpeg" width="600">
+ <img src="./img/word_cloud.jpg" width="600">
  
 **Aspects Words:** A json file that would have aspect words and corresponding reviews categorized into three sentiment buckets.
 
