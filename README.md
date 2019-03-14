@@ -1,11 +1,7 @@
 # Table of Contents
 1. [Problem](README.md#problem)
 1. [Goals](README.md#Goals)
-<<<<<<< HEAD
 1. [Input Data](README.md#Input_Data)
-=======
-1. [Input Data](README.md#Input Data)
->>>>>>> b3b65d0fe131f2069b45d83b7832d42a56837236
 1. [Data Pipeline](README.md#Data Pipeline)
 1. [Results](README.md#Results)
 1. [Conclusion](README.md#Conclusion)
@@ -18,30 +14,20 @@ patients. They helped the practices to understand their patient feedback – in 
 ## Goals
 1. To identify the phrases/words in the customer reviews that help to understand the sentiments of the customer and then display these words as `words clouds`, for both positive and negative sentiments. The deliverable was to generate an image that would be shown to practices giving them a `high level overview of sentiments` of customers toward their practice.
 
-<<<<<<< HEAD
 2. Identify the top `aspects/topics` about a given practice, or in other words `top characteristics` they have. We want want to list top N-topics that practitioner should know about their practice.
 >For Example, Practice X might have positive reviews about `cost` and `good staff` but have bad reputation in terms od `satisfaction` or `scheduling`. 
-=======
-● To display two Word Clouds (one for positive, one for negative) for all the practices who have more certain amount of 
-reviews in order to get a high level feel how the practice is doing.
-● To further identify the issues that a given practice has, or the strongpoints they have, we want to list top 3 items 
-in each category. This goal will be a derivative of the first goal. 
->>>>>>> b3b65d0fe131f2069b45d83b7832d42a56837236
+
 
 ## Input Data
 Input data consisted of nearly 1 Million patient reviews regarding their visit to a practice. Data had following features such as `id, rating, practice_id, feedback, review_date`.
 
 ## Data Pipeline
-<<<<<<< HEAD
-
 The data pipeline comprised of following stages - 
 1. Data ingestion
 2. Data Cleaning
 3. Modelling
 4. Evaluation
 
-=======
->>>>>>> b3b65d0fe131f2069b45d83b7832d42a56837236
 
 ### 1. Data Ingestion
 Originally, data was stored in relational database(PostgreSQL), so the first step was to fetch the data. Once extracted, I aggregated the data by practice and stored the aggregated data in `.csv` file on AWS S3. Following this I loaded the .csv file into Pandas dataframe. 
@@ -49,7 +35,6 @@ Originally, data was stored in relational database(PostgreSQL), so the first ste
 ### 2. Data Cleaning and Pre-processing
 This was the one of the most important parts of the project. As I was dealing with text data I had to pre-process to perform text cleaning which could be used in later stages. Following diagram represents the steps in pre-processing - 
 
-<<<<<<< HEAD
 <img src="./img/pre-processing.jpg" width="600">
 
 Most of the preprocessing was performed using `NLTK and SpaCy` python packages. Initially I converted data `to lowercase`, in next step I removed `characters and numbers` using RegEx, then I removed `stop words` and all the `proper nouns` eg. Doctor Name, Clinic Name, City etc. Following this I generated POS Tags, Association between words, and identified candidate unigrams. Most of the heavy lifting was done in this step.
@@ -67,19 +52,12 @@ After the aspect terms were generated I manually reviewed some aspects to check 
 > For example, Clinic was being referred to as `hospital, office, shop` etc. 
 
 So, I created `common categories` map to which these words would belong to. If the aspect appeared in this class, then I would assign the class name to aspect. I also created a `non-aspects` list which would filter out any aspects appearing in this list.
-=======
-## Results 
-For each practice json file was generated in the following format:
 
-<img src="./img/json_schema.jpeg" width="600">
->>>>>>> b3b65d0fe131f2069b45d83b7832d42a56837236
-
-<img src="./img/Data_Flow.jpeg" width="600">
 
 ## Results 
 For each practice, following results were being generated - 
 
-<<<<<<< HEAD
+
 **Word Clouds:** for Positive and Negative words/phrases as shown below.
  
  <img src="./img/word_cloud.jpeg" width="600">
@@ -92,8 +70,6 @@ This json wasn't directly provided to customers but instead interpreted and disp
 <img src="./img/reviews_example.jpeg" width="600">
 
 
-=======
->>>>>>> b3b65d0fe131f2069b45d83b7832d42a56837236
 ## Conclusion
 Word clouds(one for positive, one for negative) for all the practices helped to get a high-level feel of how the 
 practice is doing. 
@@ -101,9 +77,4 @@ Aspect-based sentiment analysis, helped a medical practice to identify top-N asp
 by their patients. I identified the top 8 topics for each practice and classified the reviews in 3 different categories 
 (positive, negative and mixed). This project helped to improve patient satisfaction by identifying and resolving topics 
 for which patients have negative sentiments leading to increased patient retention.
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> b3b65d0fe131f2069b45d83b7832d42a56837236
