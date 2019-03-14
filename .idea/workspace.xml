@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f970b7c-f36e-4e21-9686-797e6336a628" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Negative_word_cloud.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Positive_word_cloud.jpeg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="311">
-                <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+              <first_editor relative-caret-position="312">
+                <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               </first_editor>
               <second_editor />
             </state>
@@ -96,7 +95,7 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13085622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13085622" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" />
       <window_info anchor="right" id="R Graphics" />
@@ -105,7 +104,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -124,8 +123,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="311">
-            <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <first_editor relative-caret-position="312">
+            <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           </first_editor>
           <second_editor />
         </state>

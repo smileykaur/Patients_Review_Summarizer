@@ -77,6 +77,3 @@ Aspect-based sentiment analysis, helped a medical practice to identify top-N asp
 by their patients. I identified the top 8 topics for each practice and classified the reviews in 3 different categories 
 (positive, negative and mixed). This project helped to improve patient satisfaction by identifying and resolving topics 
 for which patients have negative sentiments leading to increased patient retention.
-
-
-
