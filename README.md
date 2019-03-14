@@ -1,12 +1,10 @@
 # Table of Contents
 1. [Problem](README.md#problem)
-1. [Input Dataset](README.md#input-dataset)
-1. [Output](README.md#output)
-1. [Approach](README.md#Approach)
-1. [Testing](README.md#Testing)
-1. [Logging](README.md#Logging)
-1. [Run_Instructions](README.md#Run_Instructions)
-1. [Questions?](README.md#questions?).
+1. [Goals](README.md#Goals)
+1. [Input Data](README.md#Input Data)
+1. [Data Pipeline](README.md#Data Pipeline)
+1. [Results](README.md#Results)
+1. [Conclusion](README.md#Conclusion)
 
 
 ## Problem
@@ -23,12 +21,9 @@ reviews in order to get a high level feel how the practice is doing.
 ● To further identify the issues that a given practice has, or the strongpoints they have, we want to list top 3 items 
 in each category. This goal will be a derivative of the first goal. 
 
-
 ## Input Data
 Data consisted of ~1 Million reviews and had information about patient, their appointment details and features such as
 id, rating, location_id, description, review_date.
-
-
 
 ## Data Pipeline
 
@@ -46,20 +41,14 @@ the aspects. As a final outcome, for each location_id a json file was generated 
 
 <img src="./img/Data_Flow.jpeg" width="600">
 
-
-
-
 ## Results 
 For each practice json file was generated in the following format:
-
 
 <img src="./img/json_schema.jpeg" width="600">
 
 <img src="./img/Negative_word_cloud.jpeg" width="600">
 
 <img src="./img/Positive_word_cloud.jpeg" width="600">
-
-
 
 ## Conclusion
 Word clouds(one for positive, one for negative) for all the practices helped to get a high-level feel of how the 
@@ -68,11 +57,6 @@ Aspect-based sentiment analysis, helped a medical practice to identify top-N asp
 by their patients. I identified the top 8 topics for each practice and classified the reviews in 3 different categories 
 (positive, negative and mixed). This project helped to improve patient satisfaction by identifying and resolving topics 
 for which patients have negative sentiments leading to increased patient retention.
- 
-
-d
-
-
 
 
 
