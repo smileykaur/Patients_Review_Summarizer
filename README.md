@@ -2,7 +2,7 @@
 1. [Problem](README.md#problem)
 1. [Goals](README.md#Goals)
 1. [Input Data](README.md#Input_Data)
-1. [Data Pipeline](README.md#Data Pipeline)
+1. [Data Pipeline](README.md#Data_Pipeline)
 1. [Results](README.md#Results)
 1. [Conclusion](README.md#Conclusion)
 
